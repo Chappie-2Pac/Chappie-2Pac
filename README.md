@@ -1,16 +1,21 @@
-## Hi there 👋
+# Hi, I'm Chappie-2Pac
 
-<!--
-**Chappie-2Pac/Chappie-2Pac** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Building deterministic, local-first AI systems—focused on zero-trust agent control planes, provenance-bound model training, and offline edge voice pipelines.
 
-Here are some ideas to get you started:
+### Core Architecture & Repositories
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+| Repository | Focus | Key Guarantees |
+| :--- | :--- | :--- |
+| **[optimismus-prime](https://github.com)** | Deterministic control plane for local AI & Codex-style agents | SQLite CAS transitions, monotonic lease fencing, fail-closed path policy, durable receipts |
+| **[chappie-public](https://github.com)** | Provenance-first teaching-data & QLoRA workflow core | Character-span provenance, manifest-bound checkpoints, credential-free access guard |
+| **[seniorbot](https://github.com)** | Hardware-agnostic voice-assistant core for Jetson-class edge devices | Deterministic ASR→LLM→TTS routing, bounded memory, `s6-rc` service contracts |
+
+### Design Philosophy
+
+- **Local-First & Offline-Capable:** Core logic, state machines, and test suites run without cloud dependencies, external credentials, or network access.
+- **Contracts Over Prompt Conventions:** State transitions, data provenance, and hardware boundaries are enforced in code—never left to model guesswork.
+- **Clean Public/Private Boundaries:** Public repositories isolate deterministic architecture and verification harnesses from private hardware labs, training runs, and runtime artifacts.
+
+---
+
+🌐 **Project Showcase:** [werkstatt-core.ludwig-grosse484994.chatgpt.site](https://chatgpt.site)
