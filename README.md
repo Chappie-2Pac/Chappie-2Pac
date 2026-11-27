@@ -39,9 +39,5 @@ Besuche meine **Portfolio-Website**:
 
 ---
 
-### 📌 Pinned Repositories
-Du kannst bis zu 6 deiner Repositories an dein Profil anheften, um sie hervorzuheben. Klicke dazu auf **"Anpassen Ihrer Pins"** im Abschnitt *"Beliebte Repositories"* deines Profils.
-
----
 **💡 Interesse an Kollaboration oder Feedback?**
 Lass uns gerne über [LinkedIn](https://linkedin.com/in/dein-profil) oder per E-Mail (deine@email.de) austauschen!
