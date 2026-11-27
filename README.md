@@ -1,21 +1,47 @@
-# Hi, I'm Chappie-2Pac
+# Hi, I'm Chappie-2Pac 🚀
 
-Building deterministic, local-first AI systems—focused on zero-trust agent control planes, provenance-bound model training, and offline edge voice pipelines.
-
-### Core Architecture & Repositories
-
-| Repository | Focus | Key Guarantees |
-| :--- | :--- | :--- |
-| **[optimismus-prime](https://github.com//Chappie-2Pac/optimismus-prime)** | Deterministic control plane for local AI & Codex-style agents | SQLite CAS transitions, monotonic lease fencing, fail-closed path policy, durable receipts |
-| **[chappie-public](https://github.com/Chappie-2Pac/chappie-public)** | Provenance-first teaching-data & QLoRA workflow core | Character-span provenance, manifest-bound checkpoints, credential-free access guard |
-| **[seniorbot](https://github.com/Chappie-2Pac/seniorbot)** | Hardware-agnostic voice-assistant core for Jetson-class edge devices | Deterministic ASR→LLM→TTS routing, bounded memory, `s6-rc` service contracts |
-
-### Design Philosophy
-
-- **Local-First & Offline-Capable:** Core logic, state machines, and test suites run without cloud dependencies, external credentials, or network access.
-- **Contracts Over Prompt Conventions:** State transitions, data provenance, and hardware boundaries are enforced in code—never left to model guesswork.
-- **Clean Public/Private Boundaries:** Public repositories isolate deterministic architecture and verification harnesses from private hardware labs, training runs, and runtime artifacts.
+**Building deterministic, local-first AI systems** — mit Fokus auf Zero-Trust-Agenten-Architekturen, nachvollziehbare Model-Training-Prozesse und Offline-Edge-Voice-Pipelines.
 
 ---
 
-🌐 **Project Showcase:** [werkstatt-core.ludwig-grosse484994.chatgpt.site]([https://chatgpt.site](https://werkstatt-core.ludwig-grosse484994.chatgpt.site/))
+## 🔧 Core Architecture & Repositories
+
+Meine Arbeit konzentriert sich auf **deterministische Systeme**, die ohne Cloud-Abhängigkeiten auskommen und Sicherheit sowie Nachvollziehbarkeit durch Code garantieren.
+
+| Repository | Fokus | Kern-Garantien |
+|------------|-------|----------------|
+| **[optimismus-prime](https://github.com/Chappie-2Pac/optimismus-prime)** | Deterministischer Kontrollplan für lokale KI & Codex-ähnliche Agenten | SQLite CAS-Transitions, monotone Lease-Fencing, Fail-Closed-Path-Policy, dauerhafte Protokolle |
+| **[chappie-public](https://github.com/Chappie-2Pac/chappie-public)** | Provenienz-basierte Trainingsdaten & QLoRA-Workflows | Character-Span-Provenienz, Manifest-gebundene Checkpoints, credentialfreie Zugriffskontrolle |
+| **[seniorbot](https://github.com/Chappie-2Pac/seniorbot)** | Hardware-unabhängiger Voice-Assistent für Jetson-Edge-Geräte | Deterministische ASR→LLM→TTS-Routing, begrenzter Speicher, `s6-rc`-Service-Verträge |
+
+---
+
+## 🏗️ Design Philosophy
+
+### **1. Local-First & Offline-Capable**
+- **Keine Cloud-Abhängigkeiten:** Kernlogik, State Machines und Test-Suiten laufen lokal — ohne externe Credentials oder Netzwerkzugriff.
+- **Robustheit:** Systeme sind auch in Offline-Umgebungen voll funktionsfähig.
+
+### **2. Contracts Over Prompt Conventions**
+- **Sicherheit durch Code:** State-Transitions, Datenprovenienz und Hardware-Grenzen werden explizit im Code definiert — nicht durch unzuverlässige Prompt-Anweisungen.
+- **Verlässlichkeit:** Klare Regeln ersetzen "künstliche Intelligenz" durch deterministische Logik.
+
+### **3. Clean Public/Private Boundaries**
+- **Transparenz & Sicherheit:** Öffentliche Repositories enthalten nur die deterministische Architektur und Verifikations-Tools.
+- **Private Labs:** Hardware-Labs, Training-Runs und Runtime-Artefakte bleiben privat — für maximale Kontrolle und Sicherheit.
+
+---
+
+## 🌐 Project Showcase
+
+Besuche mein **Live-Demo-Projekt**:
+[werkstatt-core.ludwig-grosse484994.chatgpt.site](https://werkstatt-core.ludwig-grosse484994.chatgpt.site/)
+
+---
+
+### 📌 Pinned Repositories
+Du kannst bis zu 6 deiner Repositories an dein Profil anheften, um sie hervorzuheben. Klicke dazu auf **"Anpassen Ihrer Pins"** im Abschnitt *"Beliebte Repositories"* deines Profils.
+
+---
+**💡 Interesse an Kollaboration oder Feedback?**
+Lass uns gerne über [LinkedIn](https://linkedin.com/in/dein-profil) oder per E-Mail (deine@email.de) austauschen!
