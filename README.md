@@ -6,9 +6,9 @@ Building deterministic, local-first AI systems—focused on zero-trust agent con
 
 | Repository | Focus | Key Guarantees |
 | :--- | :--- | :--- |
-| **[optimismus-prime](https://github.com)** | Deterministic control plane for local AI & Codex-style agents | SQLite CAS transitions, monotonic lease fencing, fail-closed path policy, durable receipts |
-| **[chappie-public](https://github.com)** | Provenance-first teaching-data & QLoRA workflow core | Character-span provenance, manifest-bound checkpoints, credential-free access guard |
-| **[seniorbot](https://github.com)** | Hardware-agnostic voice-assistant core for Jetson-class edge devices | Deterministic ASR→LLM→TTS routing, bounded memory, `s6-rc` service contracts |
+| **[optimismus-prime](https://github.com//Chappie-2Pac/optimismus-prime)** | Deterministic control plane for local AI & Codex-style agents | SQLite CAS transitions, monotonic lease fencing, fail-closed path policy, durable receipts |
+| **[chappie-public](https://github.com/Chappie-2Pac/chappie-public)** | Provenance-first teaching-data & QLoRA workflow core | Character-span provenance, manifest-bound checkpoints, credential-free access guard |
+| **[seniorbot](https://github.com/Chappie-2Pac/seniorbot)** | Hardware-agnostic voice-assistant core for Jetson-class edge devices | Deterministic ASR→LLM→TTS routing, bounded memory, `s6-rc` service contracts |
 
 ### Design Philosophy
 
