@@ -18,4 +18,4 @@ Building deterministic, local-first AI systems—focused on zero-trust agent con
 
 ---
 
-🌐 **Project Showcase:** [werkstatt-core.ludwig-grosse484994.chatgpt.site](https://chatgpt.site)
+🌐 **Project Showcase:** [werkstatt-core.ludwig-grosse484994.chatgpt.site]([https://chatgpt.site](https://werkstatt-core.ludwig-grosse484994.chatgpt.site/))
