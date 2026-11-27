@@ -34,7 +34,7 @@ Meine Arbeit konzentriert sich auf **deterministische Systeme**, die ohne Cloud-
 
 ## 🌐 Project Showcase
 
-Besuche mein **Live-Demo-Projekt**:
+Besuche meine **Portfolio-Website**:
 [werkstatt-core.ludwig-grosse484994.chatgpt.site](https://werkstatt-core.ludwig-grosse484994.chatgpt.site/)
 
 ---
