@@ -23,7 +23,7 @@ My work connects applied AI with serious systems engineering:
 | Project | What it demonstrates |
 |---|---|
 | [Optimismus Prime](https://github.com/Chappie-2Pac/optimismus-prime) | SQLite CAS state transitions, lease fencing, deterministic dispatch, receipts, replay handling, and recovery |
-| [Chappie](https://github.com/Chappie-2Pac/chappie-public) | Integrated provenance-first data curation, deterministic teaching units, quality gates, and Unsloth/QLoRA training orchestration |
+| [Chappie](https://github.com/Chappie-2Pac/chappie-public) · [v1.0.0 release](https://github.com/Chappie-2Pac/chappie-public/releases/tag/v1.0.0) | Integrated provenance-first data curation, deterministic teaching units, quality gates, and Unsloth/QLoRA training orchestration |
 | [Seniorbot](https://github.com/Chappie-2Pac/seniorbot) | ASR → dialogue → local LLM → TTS orchestration with replaceable adapters and bounded state |
 
 Chappie combines its orchestration core with an integrated `custom-llm-lab` data-curation layer: source extraction, provenance-aware chunking, teaching-unit generation, validation, review, and export continue into a GPU-first Unsloth/QLoRA training path. The public repository presents the reproducible engineering surface; private datasets, model weights, and runtime artifacts remain outside the public snapshot.
@@ -67,7 +67,7 @@ integration and strong software engineering matter equally.
 ## Start here
 
 - Read the [Optimismus Prime architecture](https://github.com/Chappie-2Pac/optimismus-prime#architecture) for the control-plane design.
-- Run the [Chappie quickstart](https://github.com/Chappie-2Pac/chappie-public#quickstart) for integrated provenance-aware data preparation and training orchestration.
+- Run the [Chappie v1.0.0 quickstart](https://github.com/Chappie-2Pac/chappie-public#quick-start) for integrated provenance-aware data preparation and training orchestration.
 - Review the [Seniorbot pipeline](https://github.com/Chappie-2Pac/seniorbot#architecture) for edge voice-AI boundaries.
 
 ## Contact
