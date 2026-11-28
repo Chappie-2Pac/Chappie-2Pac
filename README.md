@@ -1,43 +1,62 @@
-# Hi, I'm Christoph Ludwig genannt Grosse 🚀
+# Christoph Ludwig genannt Grosse
 
-**Building deterministic, local-first AI systems** — mit Fokus auf Zero-Trust-Agenten-Architekturen, nachvollziehbare Model-Training-Prozesse und Offline-Edge-Voice-Pipelines.
+## AI Engineer building deterministic, local-first AI systems
 
----
+I design and implement AI systems that remain understandable under real-world
+constraints: edge hardware, local execution, changing state, model failures,
+and the need to explain what happened after a run.
 
-## 🔧 Core Architecture & Repositories
+My work connects applied AI with serious systems engineering:
 
-Meine Arbeit konzentriert sich auf **deterministische Systeme**, die ohne Cloud-Abhängigkeiten auskommen und Sicherheit sowie Nachvollziehbarkeit durch Code garantieren.
+- deterministic control planes for AI agents
+- provenance-first data preparation and training workflows
+- local LLM runtimes and fail-closed preflight checks
+- hardware-agnostic voice-assistant architecture
+- reproducible tests, receipts, state transitions, and recovery paths
 
-| Repository | Fokus | Kern-Garantien |
-|------------|-------|----------------|
-| **[optimismus-prime](https://github.com/Chappie-2Pac/optimismus-prime)** | Deterministischer Kontrollplan für lokale KI & Codex-ähnliche Agenten | SQLite CAS-Transitions, monotone Lease-Fencing, Fail-Closed-Path-Policy, dauerhafte Protokolle |
-| **[chappie-public](https://github.com/Chappie-2Pac/chappie-public)** | Provenienz-basierte Trainingsdaten & QLoRA-Workflows | Character-Span-Provenienz, Manifest-gebundene Checkpoints, credentialfreie Zugriffskontrolle |
-| **[seniorbot](https://github.com/Chappie-2Pac/seniorbot)** | Hardware-unabhängiger Voice-Assistent für Jetson-Edge-Geräte | Deterministische ASR→LLM→TTS-Routing, begrenzter Speicher, `s6-rc`-Service-Verträge |
+## Selected projects
 
----
+| Project | What it demonstrates |
+|---|---|
+| [Optimismus Prime](https://github.com/Chappie-2Pac/optimismus-prime) | SQLite CAS state transitions, lease fencing, deterministic dispatch, receipts, replay handling, and recovery |
+| [Chappie](https://github.com/Chappie-2Pac/chappie-public) | Provenance-aware data curation, deterministic teaching units, policy contracts, memory, reasoning, and offline verification |
+| [Seniorbot](https://github.com/Chappie-2Pac/seniorbot) | ASR → dialogue → local LLM → TTS orchestration with replaceable adapters and bounded state |
+| [Odysseus](https://github.com/Chappie-2Pac/odysseus-runtime-profile-public) | Fail-closed loopback runtime preflight for local OpenAI-compatible LLM services |
 
-## 🏗️ Design Philosophy
+## How I approach AI engineering
 
-### **1. Local-First & Offline-Capable**
-- **Keine Cloud-Abhängigkeiten:** Kernlogik, State Machines und Test-Suiten laufen lokal — ohne externe Credentials oder Netzwerkzugriff.
-- **Robustheit:** Systeme sind auch in Offline-Umgebungen voll funktionsfähig.
+1. Define the state, contracts, and failure modes before adding model
+   capabilities.
+2. Keep provenance and evidence close to the data and the execution path.
+3. Make safety decisions explicit in code instead of relying on prompt
+   conventions.
+4. Build the test harness and recovery path as part of the feature.
+5. Separate reusable engineering from deployment-specific hardware, data, and
+   operations.
 
-### **2. Contracts Over Prompt Conventions**
-- **Sicherheit durch Code:** State-Transitions, Datenprovenienz und Hardware-Grenzen werden explizit im Code definiert — nicht durch unzuverlässige Prompt-Anweisungen.
-- **Verlässlichkeit:** Klare Regeln ersetzen "künstliche Intelligenz" durch deterministische Logik.
+## Core technologies
 
-### **3. Clean Public/Private Boundaries**
-- **Transparenz & Sicherheit:** Öffentliche Repositories enthalten nur die deterministische Architektur und Verifikations-Tools.
-- **Private Labs:** Hardware-Labs, Training-Runs und Runtime-Artefakte bleiben privat — für maximale Kontrolle und Sicherheit.
+Python · POSIX shell · SQLite · Git · Linux · pytest · local LLM runtimes ·
+ASR/TTS adapter design · YAML/JSON workflow contracts · provenance and data
+quality tooling · fail-closed security boundaries
 
----
+## Roles I am targeting
 
-## 🌐 Project Showcase
+AI Engineer, LLM Infrastructure Engineer, Applied AI Engineer, Agent Systems
+Engineer, Edge AI Engineer, or AI Platform Engineer roles where reliable model
+integration and strong software engineering matter equally.
 
-Besuche meine **Portfolio-Website**:
-[werkstatt-core.ludwig-grosse484994.chatgpt.site](https://werkstatt-core.ludwig-grosse484994.chatgpt.site/)
+## Start here
 
----
+- Read the [Optimismus Prime architecture](https://github.com/Chappie-2Pac/optimismus-prime#architecture) for the control-plane design.
+- Run the [Chappie quickstart](https://github.com/Chappie-2Pac/chappie-public#quickstart) for provenance-aware data preparation.
+- Review the [Seniorbot pipeline](https://github.com/Chappie-2Pac/seniorbot#architecture) for edge voice-AI boundaries.
+- Inspect the [Odysseus preflight](https://github.com/Chappie-2Pac/odysseus-runtime-profile-public#quickstart) for local runtime safety.
 
-**💡 Interesse an Kollaboration oder Feedback?**
-Lass uns gerne über [LinkedIn](https://linkedin.com/in/christoph-ludwig-enannt-grosse-a7b830452) oder per E-Mail (ludwig-grosse@gmx.de) austauschen!
+## Contact
+
+Portfolio: [Werkstatt Core on ChatGPT](https://werkstatt-core.ludwig-grosse484994.chatgpt.site/)
+
+LinkedIn: [Christoph Ludwig genannt Grosse](https://linkedin.com/in/christoph-ludwig-enannt-grosse-a7b830452)
+
+Email: [ludwig-grosse@gmx.de](mailto:ludwig-grosse@gmx.de)
