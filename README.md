@@ -1,3 +1,5 @@
+<p align="right"><a href="./README.de.md">🇩🇪 Deutsch</a> · <a href="./README.md">🇬🇧 English</a></p>
+
 # Christoph Ludwig genannt Grosse
 
 ## Applied AI & Agent Systems Engineer
