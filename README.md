@@ -1,10 +1,14 @@
 # Christoph Ludwig genannt Grosse
 
-## AI Engineer building deterministic, local-first AI systems
+## Applied AI & Agent Systems Engineer
 
 I design and implement AI systems that remain understandable under real-world
 constraints: edge hardware, local execution, changing state, model failures,
 and the need to explain what happened after a run.
+
+My focus is engineering that can be inspected and tested: deterministic agent
+orchestration, local edge AI, provenance-aware data pipelines, security
+boundaries, and verification tooling.
 
 My work connects applied AI with serious systems engineering:
 
@@ -45,6 +49,13 @@ quality tooling · fail-closed security boundaries
 AI Engineer, LLM Infrastructure Engineer, Applied AI Engineer, Agent Systems
 Engineer, Edge AI Engineer, or AI Platform Engineer roles where reliable model
 integration and strong software engineering matter equally.
+
+## Portfolio case studies
+
+- [Chappie — data and QLoRA pipeline](https://werkstatt-core.ludwig-grosse484994.chatgpt.site/chappie)
+- [Seniorbot — local edge voice assistant](https://werkstatt-core.ludwig-grosse484994.chatgpt.site/seniorbot)
+- [Optimismus Prime — agent orchestration](https://werkstatt-core.ludwig-grosse484994.chatgpt.site/optimismus-prime)
+- [About my engineering approach](https://werkstatt-core.ludwig-grosse484994.chatgpt.site/about)
 
 ## Start here
 
