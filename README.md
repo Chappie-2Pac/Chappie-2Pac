@@ -69,7 +69,7 @@ integration and strong software engineering matter equally.
 ## Start here
 
 - Read the [Optimismus Prime architecture](https://github.com/Chappie-2Pac/optimismus-prime#architecture) for the control-plane design.
-- Run the [Chappie quickstart](https://github.com/Chappie-2Pac/chappie-public#quick-start) for integrated provenance-aware data preparation and training orchestration.
+- Run the [Chappie quickstart](https://github.com/Chappie-2Pac/chappie-public#quickstart) for integrated provenance-aware data preparation and training orchestration.
 - Review the [Seniorbot pipeline](https://github.com/Chappie-2Pac/seniorbot#architecture) for edge voice-AI boundaries.
 - Inspect the [Odysseus preflight](https://github.com/Chappie-2Pac/odysseus-runtime-profile-public#quickstart) for local runtime safety.
 
