@@ -27,6 +27,13 @@ My work connects applied AI with serious systems engineering:
 | [Seniorbot](https://github.com/Chappie-2Pac/seniorbot) | ASR → dialogue → local LLM → TTS orchestration with replaceable adapters and bounded state |
 | [Odysseus](https://github.com/Chappie-2Pac/odysseus-runtime-profile-public) | Fail-closed loopback runtime preflight for local OpenAI-compatible LLM services |
 
+## Verification
+
+- [![Optimismus Prime CI](https://github.com/Chappie-2Pac/optimismus-prime/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Chappie-2Pac/optimismus-prime/actions/workflows/ci.yml) Full control-plane verification suite: 1,180 tests and 1,216 subtests locally verified
+- [![Chappie CI](https://github.com/Chappie-2Pac/chappie-public/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Chappie-2Pac/chappie-public/actions/workflows/ci.yml) 107 offline tests, package build, and public import smoke test
+- [![Seniorbot CI](https://github.com/Chappie-2Pac/seniorbot/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Chappie-2Pac/seniorbot/actions/workflows/ci.yml) Python 3.10–3.12 test matrix
+- [![Odysseus CI](https://github.com/Chappie-2Pac/odysseus-runtime-profile-public/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Chappie-2Pac/odysseus-runtime-profile-public/actions/workflows/ci.yml) Shell syntax and fail-closed 'BLOCKED' path
+
 ## How I approach AI engineering
 
 1. Define the state, contracts, and failure modes before adding model
