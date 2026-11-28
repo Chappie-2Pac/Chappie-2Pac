@@ -1,3 +1,5 @@
+<p align="right"><a href="./README.de.md">🇩🇪 Deutsch</a> · <a href="./README.md">🇬🇧 English</a></p>
+
 # Christoph Ludwig genannt Grosse
 
 ## Applied AI & Agent Systems Engineer
@@ -14,7 +16,7 @@ My work connects applied AI with serious systems engineering:
 
 - deterministic control planes for AI agents
 - provenance-first data preparation and training workflows
-- local LLM runtimes and fail-closed preflight checks
+- local LLM runtime architecture and explicit security boundaries
 - hardware-agnostic voice-assistant architecture
 - reproducible tests, receipts, state transitions, and recovery paths
 
@@ -49,7 +51,7 @@ Chappie combines its orchestration core with an integrated `custom-llm-lab` data
 
 Python · POSIX shell · SQLite · Git · Linux · pytest · local LLM runtimes ·
 Unsloth/QLoRA · ASR/TTS adapter design · YAML/JSON workflow contracts ·
-provenance and data quality tooling · fail-closed security boundaries
+provenance and data quality tooling · explicit security boundaries
 
 ## Roles I am targeting
 
@@ -67,7 +69,7 @@ integration and strong software engineering matter equally.
 ## Start here
 
 - Read the [Optimismus Prime architecture](https://github.com/Chappie-2Pac/optimismus-prime#architecture) for the control-plane design.
-- Run the [Chappie quickstart](https://github.com/Chappie-2Pac/chappie-public#quickstart) for integrated provenance-aware data preparation and training orchestration.
+- Run the [Chappie v1.0.0 quickstart](https://github.com/Chappie-2Pac/chappie-public#quick-start) for integrated provenance-aware data preparation and training orchestration.
 - Review the [Seniorbot pipeline](https://github.com/Chappie-2Pac/seniorbot#architecture) for edge voice-AI boundaries.
 
 ## Contact
