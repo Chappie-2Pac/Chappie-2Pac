@@ -23,9 +23,11 @@ My work connects applied AI with serious systems engineering:
 | Project | What it demonstrates |
 |---|---|
 | [Optimismus Prime](https://github.com/Chappie-2Pac/optimismus-prime) | SQLite CAS state transitions, lease fencing, deterministic dispatch, receipts, replay handling, and recovery |
-| [Chappie](https://github.com/Chappie-2Pac/chappie-public) | Provenance-aware data curation, deterministic teaching units, policy contracts, memory, reasoning, and offline verification |
+| [Chappie](https://github.com/Chappie-2Pac/chappie-public) | Integrated provenance-first data curation, deterministic teaching units, quality gates, and Unsloth/QLoRA training orchestration |
 | [Seniorbot](https://github.com/Chappie-2Pac/seniorbot) | ASR → dialogue → local LLM → TTS orchestration with replaceable adapters and bounded state |
 | [Odysseus](https://github.com/Chappie-2Pac/odysseus-runtime-profile-public) | Fail-closed loopback runtime preflight for local OpenAI-compatible LLM services |
+
+Chappie combines its orchestration core with an integrated `custom-llm-lab` data-curation layer: source extraction, provenance-aware chunking, teaching-unit generation, validation, review, and export continue into a GPU-first Unsloth/QLoRA training path. The public repository presents the reproducible engineering surface; private datasets, model weights, and runtime artifacts remain outside the public snapshot.
 
 ## Verification
 
@@ -48,8 +50,8 @@ My work connects applied AI with serious systems engineering:
 ## Core technologies
 
 Python · POSIX shell · SQLite · Git · Linux · pytest · local LLM runtimes ·
-ASR/TTS adapter design · YAML/JSON workflow contracts · provenance and data
-quality tooling · fail-closed security boundaries
+Unsloth/QLoRA · ASR/TTS adapter design · YAML/JSON workflow contracts ·
+provenance and data quality tooling · fail-closed security boundaries
 
 ## Roles I am targeting
 
@@ -67,7 +69,7 @@ integration and strong software engineering matter equally.
 ## Start here
 
 - Read the [Optimismus Prime architecture](https://github.com/Chappie-2Pac/optimismus-prime#architecture) for the control-plane design.
-- Run the [Chappie quickstart](https://github.com/Chappie-2Pac/chappie-public#quickstart) for provenance-aware data preparation.
+- Run the [Chappie quickstart](https://github.com/Chappie-2Pac/chappie-public#quick-start) for integrated provenance-aware data preparation and training orchestration.
 - Review the [Seniorbot pipeline](https://github.com/Chappie-2Pac/seniorbot#architecture) for edge voice-AI boundaries.
 - Inspect the [Odysseus preflight](https://github.com/Chappie-2Pac/odysseus-runtime-profile-public#quickstart) for local runtime safety.
 
