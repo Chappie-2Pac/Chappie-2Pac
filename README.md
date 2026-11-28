@@ -40,4 +40,4 @@ Besuche meine **Portfolio-Website**:
 ---
 
 **💡 Interesse an Kollaboration oder Feedback?**
-Lass uns gerne über [LinkedIn](https://linkedin.com/in/christoph-ludwig-enannt-grosse-a7b830452) oder per E-Mail (ludwig-grosse@mx.de) austauschen!
+Lass uns gerne über [LinkedIn](https://linkedin.com/in/christoph-ludwig-enannt-grosse-a7b830452) oder per E-Mail (ludwig-grosse@gmx.de) austauschen!
