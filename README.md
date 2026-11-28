@@ -1,4 +1,4 @@
-# Hi, I'm Chappie-2Pac 🚀
+# Hi, I'm Christoph Ludwig genannt Grosse 🚀
 
 **Building deterministic, local-first AI systems** — mit Fokus auf Zero-Trust-Agenten-Architekturen, nachvollziehbare Model-Training-Prozesse und Offline-Edge-Voice-Pipelines.
 
